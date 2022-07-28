@@ -1,0 +1,25 @@
+{
+   "name": "@axelapi/sdk",
+   "version": "1.0.0-rc",
+   "homepage": "https://github.com/axelapi/pub-ts-sdk",
+   "license": "SEE LICENSE IN LICENSE.txt",
+   "description": "A JavaScript & TypeScript sdk to interact with Axel's DeFi API.",
+   "contributors": [
+      {
+         "name": "Cole Gannon",
+         "email": "cole@axelapi.xyz"
+      },
+      {
+         "name": "Marcus Luebke",
+         "email": "marcus@axelapi.xyz"
+      }
+   ],
+   "exports": {
+      "import": "./dist/es6.min.js",
+      "require": "./dist/cjs.min.js"
+   },
+   "types": "./dist/mod.d.ts",
+   "dependencies": {
+      "cross-fetch": "^3.1.5"
+   }
+}
